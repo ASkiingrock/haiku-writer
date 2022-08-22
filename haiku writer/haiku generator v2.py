@@ -3,7 +3,6 @@
 # bam, haiku
 import json
 import random
-from tkinter.font import names
 
 firstname = ""
 lastname = ""
