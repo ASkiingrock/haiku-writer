@@ -7,7 +7,7 @@ import random
 firstname = ""
 lastname = ""
 
-with open("english words syllables oscar.json", "r", encoding="utf-8") as file:
+with open("english words syllables v3.json", "r", encoding="utf-8") as file:
     syllables = json.load(file)
     file.close()
 

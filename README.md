@@ -6,3 +6,5 @@ I started with a list of 10,000 english words from https://www.mit.edu/~ecprice/
 After that I found a couple csv's of first and last names to generate names with from here: https://raw.githubusercontent.com/hadley/data-baby-names/master/baby-names.csv and here: https://github.com/fivethirtyeight/data/raw/master/most-common-name/surnames.csv
 
 Essentially I just converted these into JSON files for easy access, and then the code generates a random sequence of syllables for each line, finds random words with those syllables and then generates a haiku based on that.
+
+If you want to use a different list of words, use txtconverter.py to convert them. Use a txt file of words seperated each on a new line, and then create an empty json for the results.
