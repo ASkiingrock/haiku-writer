@@ -9,7 +9,8 @@ Essentially I just converted these into JSON files for easy access, and then the
 
 ### Running
 
-`python3 -m haiku-writer v2.py`
+`python3 -m "haiku-writer" v2.py`
+
 If you want to use txtconverter you will also need to `pip install syllapy`
 
 If you want to use a different list of words, use txtconverter.py to convert them. Use a txt file of words seperated each on a new line, and then create an empty json for the results.
