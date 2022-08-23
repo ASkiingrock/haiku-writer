@@ -7,4 +7,9 @@ After that I found a couple csv's of first and last names to generate names with
 
 Essentially I just converted these into JSON files for easy access, and then the code generates a random sequence of syllables for each line, finds random words with those syllables and then generates a haiku based on that.
 
+### Running
+
+`python3 -m haiku-writer v2.py`
+If you want to use txtconverter you will also need to `pip install syllapy`
+
 If you want to use a different list of words, use txtconverter.py to convert them. Use a txt file of words seperated each on a new line, and then create an empty json for the results.
