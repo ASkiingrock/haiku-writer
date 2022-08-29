@@ -43,15 +43,15 @@ for item3 in third_line:
     third_line_words.append(random.choice(syllables[str(item3)]))
 
 # generate first name and then last name
-with open("firstnames.json", "r", encoding="utf-8") as file:
-    fnames = json.load(file)
+with open("firstnamesv2.txt", "r", encoding="utf-8") as file:
+    fnames = file.readlines()
     file.close()
-with open("lastnames.json", "r", encoding="utf-8") as file:
-    lnames = json.load(file)
+with open("lastnamesv2.txt", "r", encoding="utf-8") as file:
+    lnames = file.readlines()
     file.close()
 
-firstname = random.choice(fnames["firstnames"])
-lastname = random.choice(lnames["lastnames"])  
+firstname = random.choice(fnames).strip()
+lastname = random.choice(lnames).strip()
 
 first_line_words[0] = first_line_words[0].capitalize()
 second_line_words[0] = second_line_words[0].capitalize()
